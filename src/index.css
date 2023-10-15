@@ -84,3 +84,70 @@ body {
     padding-bottom: 1.98rem;
   }
 }
+
+.trade-section-heading {
+  color: #FFF;
+  text-align: center;
+  font-family: 'Roboto', sans-serif;
+  font-size: 2rem;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 2.6875rem; 
+  margin: auto;
+  width: 50%;
+}
+
+.trade-section-heading strong {
+  font-weight: 700;
+}
+
+.line--green {
+  background-color: #29A643;
+  width: 4.3rem;
+  height: 2px;  
+  margin: 15px auto;  
+}
+.trade-section-article{
+  color: #FFF;
+  text-align: center;
+  font-family: Roboto;
+  font-size: 0.875rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.25rem; 
+  width: 90%;
+  margin: auto;
+}
+.trade-section-article--strong{
+  font-weight: 700;
+}
+
+@media only screen and (min-width: 768px) {
+  .trade-section-heading {
+      font-size: 2rem;
+      line-height: 2.66375rem;
+      width: 100%;
+  }
+  .line--green{
+    margin: 20px auto;
+  }
+  .trade-section-article{
+    line-height: 1.375rem;
+    width: 80%;
+  }
+}
+
+@media only screen and (min-width: 1200px) {
+  .trade-section-heading {
+      font-size: 2.1875rem;
+      line-height: 2.66375rem;
+      width: 100%;
+  }
+  .line--green{
+    margin: 30px auto;
+  }
+  .trade-section-article{
+    width: 50%;
+  }
+}
+
