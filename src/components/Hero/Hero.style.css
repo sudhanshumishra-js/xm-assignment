@@ -13,26 +13,10 @@ p{
 }
 
 .hero__wrapper {
-    background-image: 
-        url('../../Assets/Images/Backgrounds/Mobile/Gold Number-angle 3.png'),
-        url('../../Assets/Images/Backgrounds/Mobile/Cube glass 6.png'),
-        linear-gradient(180deg, rgba(32, 46, 71, 1) 0%, rgba(32, 46, 71, 0.7) 50%, rgba(32, 46, 71, 0) 100%);
-    background-position: 
-        0 0,
-        right -12% top 8%;
-    background-repeat: 
-        no-repeat,
-        no-repeat;
-    background-size:
-        100px 100px,  
-        100px 100px;  
-    background-blend-mode: normal, normal;
+    /* background: linear-gradient(180deg, rgba(32, 46, 71, 0.65) 36.53%, rgba(32, 46, 71, 0.62) 57.69%, rgba(32, 46, 71, 0.58) 78.84%, rgba(32, 46, 71, 0.00) 100%); */
     width: 100%;
-    min-height: 100vh;
+    min-height: 90vh;
 }
-
-
-
 
 
 
@@ -145,40 +129,12 @@ p{
 }
 
 
-@media (min-width: 768px) and (max-width: 1199px) {
- 
-    .hero__wrapper {
-        background-image: 
-            url('../../Assets/Images/Backgrounds/Tablet/Gold\ Number-angle\ 1.png'),
-            url('../../Assets/Images/Backgrounds/Tablet/Cup\ glass\ 1.png'),
-            url('../../Assets/Images/Backgrounds/Tablet/Cube\ glass\ 5.png'),
-            url('../../Assets/Images/Backgrounds/Tablet/Gold\ Number\ 0.N10\ 2.png'),
-            url('../../Assets/Images/Backgrounds/Tablet/Perforated\ ring\ glass\ 3.png'),
-            url('../../Assets/Images/Backgrounds/Tablet/Cube\ glass\ 4.png'),
-            linear-gradient(0deg, rgba(32, 46, 71, 1) 100%, rgba(32, 46, 71, 0.7) 50%, rgba(32, 46, 71, 0) 0%);
-        background-position: 
-            left 10% top 0,
-            right 10% top 0,
-            center left -5%,
-            center right -5%,
-            left 15% bottom 10%,
-            right 10% bottom 10%;
-        background-size:
-            100px 100px,
-            100px 100px,
-            100px 100px,
-            100px 100px,
-            100px 100px,
-            100px 100px;
-        background-repeat: 
-            no-repeat,
-            no-repeat,
-            no-repeat,
-            no-repeat,
-            no-repeat,
-            no-repeat;
-    }
 
+
+@media (min-width: 768px) and (max-width: 1199px) {
+    .hero__wrapper{
+        min-height: 100vh;
+    }
     .hero{
         width: 65%;
     }
@@ -196,45 +152,12 @@ p{
     .hero__terms-text{
         margin-top: 20px;
     }
-    
-
 }
 
 @media (min-width: 1200px) {
-
-    .hero__wrapper {
-        background-image: 
-            url('../../Assets/Images/Backgrounds/Desktop/Gold\ Number-angle\ 2.png'),
-            url('../../Assets/Images/Backgrounds/Desktop/Cup\ glass\ 1.png'),
-            url('../../Assets/Images/Backgrounds/Desktop/Cube\ glass\ 3.png'),
-            url('../../Assets/Images/Backgrounds/Desktop/Gold\ Number\ 0.N10\ 1.png'),
-            url('../../Assets/Images/Backgrounds/Desktop/Perforated\ ring\ glass\ 2.png'),
-            url('../../Assets/Images/Backgrounds/Desktop/Cube\ glass\ 2.png'),
-            linear-gradient(0deg, rgba(32, 46, 71, 1) 100%, rgba(32, 46, 71, 0.7) 50%, rgba(32, 46, 71, 0) 0%);
-        background-position: 
-            left 10% top 0,
-            right 10% top 0,
-            center left -5%,
-            center right -5%,
-            left 15% bottom 10%,
-            right 10% bottom 10%;
-        background-size:
-            100px 100px,
-            100px 100px,
-            100px 100px,
-            100px 100px,
-            100px 100px,
-            100px 100px;
-        background-repeat: 
-            no-repeat,
-            no-repeat,
-            no-repeat,
-            no-repeat,
-            no-repeat,
-            no-repeat;
+    .hero__wrapper{
+        min-height: 100vh;
     }
-
-
     .hero{
         width: 50%;
     }
@@ -247,7 +170,6 @@ p{
     .hero__button{
         width: 21.56rem;
     }
-
     .hero__trade-with-text,
     .hero__trade-text,
     .hero__button,

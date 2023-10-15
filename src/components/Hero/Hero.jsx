@@ -1,5 +1,5 @@
 import React from 'react';
-import './Hero.style.css'; // Assuming your CSS is in Hero.css
+import './Hero.style.css';
 
 const Hero = () => (
     <div className='hero__wrapper'>
