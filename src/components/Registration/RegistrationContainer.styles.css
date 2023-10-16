@@ -1,0 +1,106 @@
+.registration-container {
+    margin-top: 100px;
+    width: 90%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 100px; 
+}
+
+.registration-container__text-div {
+    
+}
+
+.registration-container__form-div {
+
+}
+
+.text-div__heading {
+    color: #FFF;
+    text-align: center;
+    font-family: Roboto;
+    font-size: 1.5rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 111.9%; /* 1.6785rem */
+}
+
+.text-div__text {
+    color: #FFF;
+    text-align: center;
+    font-family: Roboto;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.3125rem; /* 131.25% */
+}
+.text-div__event-container{
+    width: 100%;
+    margin: auto;
+    text-align: center;
+    margin-top: 50px;
+    position: relative;
+}
+.event-container__cards{
+    padding: 20px; 
+}
+.cards__text{
+    color: #FFF;
+    text-align: center;
+    font-family: Roboto;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.3125rem; /* 131.25% */
+    margin-top: 10px;
+}
+
+
+
+
+@media (max-width: 767px) {
+.event-container__cards{
+    border-bottom: 1px solid #FFF;
+
+}
+}
+
+@media (min-width: 768px) and (max-width: 1199px) {
+    .cards__text{
+        list-style: 1.125rem; 
+        font-size: 0.935rem;
+    }
+    .text-div__event-container {
+        display: grid;
+        grid-template-columns: 35% 25% 40%;
+        justify-content: center;
+        border: 1px solid white;
+        border-left: 1px solid transparent;
+        border-right: 1px solid transparent; 
+        max-width: 90%;
+        margin: auto;
+        margin-top: 50px;
+        padding: 25px;
+    }
+}
+
+@media (min-width: 1200px) {
+    .cards__text{
+        list-style: 1.125rem; 
+        font-size: 0.935rem;
+    }
+    .text-div__event-container {
+        display: grid;
+        grid-template-columns: 30% 25% 35%;
+        justify-content: center;
+        border: 1px solid white;
+        border-left: 1px solid transparent;
+        border-right: 1px solid transparent; 
+        width: 70%;
+        margin: auto;
+        margin-top: 50px;
+        padding: 25px;
+     
+    }
+
+}
