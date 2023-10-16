@@ -3,6 +3,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 
 import React from 'react'
 import "./RegistrationContainer.styles.css"
+import RegistrationForm from './RegistrationForm'
 const RegistrationContainer = () => {
     return (
         <section className='registration-container'>
@@ -27,7 +28,7 @@ const RegistrationContainer = () => {
                 </div>
             </div>
             <div className='registration-container__form-div'>
-
+                <RegistrationForm />
             </div>
         </section>
     )

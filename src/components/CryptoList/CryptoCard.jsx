@@ -7,6 +7,11 @@ import React from 'react'
 const CryptoCard = (props) => {
     // const imgSrc = props.symbol && require(`../../Assets/Icons/${props.symbol}.svg`).default
     const imgSrc = icons[props.symbol]
+    const price = parseFloat(props.price).toLocaleString('en-US', {
+        minimumFractionDigits: 2,
+        maximumFractionDigits: 2
+    });
+
     return (
         <div className='crypto__card'>
             <div className='crypto__card__top'>
@@ -16,7 +21,7 @@ const CryptoCard = (props) => {
             </div>
             <div className='crypto__card__bottom'>
                 <div className='crypto__card__bottom-price'>
-                    {props.price}
+                    ${price}
                 </div>
                 <div className={props.percentChange >= 0 ? "crypto__card__bottom-price-change--positive" : "crypto__card__bottom-price-change--negative"}>
                     {props.percentChange >= 0 ? <FontAwesomeIcon icon={faCircleChevronUp} style={{ color: "#b1ffc2", marginRight: '0.3rem' }} /> : <FontAwesomeIcon icon={faCircleChevronDown} style={{ color: "#ffa3a6", marginRight: '0.3rem' }} />}
