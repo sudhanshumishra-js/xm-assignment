@@ -2,6 +2,9 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+## Env Vars
+REACT_APP_CRYPTO_DATA_API_URL=https://api.coinlore.net/api/tickers/
+
 ## Available Scripts
 
 In the project directory, you can run:
